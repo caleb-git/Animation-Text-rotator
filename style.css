@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+h1{
+    color:white;
+    font-size: 50px;
+}
+
+span:before{
+    content: "transform";
+    text-transform: uppercase;
+    color:blue;
+    animation: palabra 3s infinite;
+
+}
+
+/*REGLA*/
+
+@keyframes palabra{
+    0%{content: "transform";}
+
+    
+    50%{content: "gym";}
+
+    
+    100%{content: "futbol";}
+}
